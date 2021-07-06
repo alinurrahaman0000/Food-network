@@ -8,6 +8,9 @@ body {
   font-weight: bold;
   font-size: larger;
 }
+.half-width p {
+  text-align: justify;
+}
 h1 {
   color: rgb(102, 87, 68);
 }
@@ -56,8 +59,9 @@ a {
   background-repeat: no-repeat;
 }
 .img-2 img {
-  width: 450px;
-  height: 500px;
+  width: 300px;
+  height: auto;
+  margin-left: 42px;
 }
 .half-widtht {
   width: 40%;
@@ -87,6 +91,9 @@ a {
   width: 20%;
   margin-left: 80px;
 }
+.medil p {
+  text-align: center;
+}
 .box {
   margin-right: 70px;
   background-color: aliceblue;
@@ -96,6 +103,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   width: 555px;
   font-style: italic;
+  text-align: justify;
 }
 .box img {
   width: 300px;
@@ -127,7 +135,12 @@ footer span {
 footer p {
   text-align: center;
   color: aliceblue;
+  margin-top: 33px;
+}
+footer h1 {
+  padding: 32px;
 }
 footer {
   background-color: black;
+  height: 233px;
 }
